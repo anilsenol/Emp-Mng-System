@@ -1,0 +1,81 @@
+.employee-page {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.employee-page__title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.employee-table th {
+  background-color: #7ed4ad;
+  color: black;
+  padding: 12px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.employee-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.employee-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.no-employees-message {
+  text-align: center;
+  color: #777;
+  margin-top: 30px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.no-employees-message {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+}
